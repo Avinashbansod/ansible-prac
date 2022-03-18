@@ -1,0 +1,5 @@
+- name: testing ping
+  hosts: jenkins
+  tasks:
+     debug:
+       msg: "Hello Dunia Walo!!!"
