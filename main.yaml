@@ -1,6 +1,7 @@
 ---
 - name: testing ping
   hosts: jenkins
+  gather_facts: no
   tasks:
    - name: test the ping
      debug:
